@@ -42,7 +42,7 @@ ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 ## Lazy to deploy
 
-`aHR0cHM6Ly9vc3MudjJyYXlzZS5jb20vcHJveGllcy9kYXRhLzIwMjMtMDctMzAvRnJFS1lvQS50eHQ=` (free clash.meta subscribe config)
+`https://new-edge-tunnel.pages.dev/sub/1f489b96-80a3-44eb-b32a-b454341e200c` (free vs2ray subscription link)
 
 ## UUID Setting (Optional)
 
