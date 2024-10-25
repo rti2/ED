@@ -10,20 +10,6 @@ ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/zizifn/edgetunnel)
 
-## available branches and explain
-
-| Branch Name   | Description                                                   |
-| ------------- | ------------------------------------------------------------- |
-| remote-socks5 | Branch for remote SOCKS5 proxy pool used implementation       |
-| socks5        | Branch for SOCKS5 proxyIP implementation                      |
-| vless         | Branch for outbound VLESS protocol implementation             |
-| vless2        | Branch for alternative outbound VLESS protocol implementation |
-| code1         | Branch for code1 feature development                          |
-| code2         | Branch for code2 alternative feature development              |
-| dns           | Branch for DNS alternative related development                |
-| main          | Main branch for the project                                   |
-| pages         | New version for deployment on Cloudflare Pages                |
-
 ## Deploy in pages.dev
 
 1. See YouTube Video:
@@ -34,15 +20,15 @@ ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 ## Deploy in worker.dev
 
-1. Copy `_worker.js` code from [here](https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js).
+1. Copy `_worker.js` code from [here](https://github.com/rti2/ED/blob/main/_worker.js).
 
 2. Alternatively, you can click the button below to deploy directly.
 
-   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/3Kmfi6HP/EDtunnel)
+   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/rti2/ED)
 
 ## Lazy to deploy
 
-`https://new-edge-tunnel.pages.dev/sub/1f489b96-80a3-44eb-b32a-b454341e200c` (free vs2ray subscription link)
+`https://new-edge-tunnel.pages.dev/sub/1f489b96-80a3-44eb-b32a-b454341e200c` (free v2ray subscription link)
 
 ## UUID Setting (Optional)
 
@@ -108,27 +94,8 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 if you deploy in cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
 
-## proxyIP (Optional)
-
-1. When deploy in cloudflare pages, you can set proxyIP in `wrangler.toml` file. variable name is `PROXYIP`.
-
-2. When deploy in worker.dev, you can set proxyIP in `_worker.js` file. variable name is `proxyIP`.
-
-note: `proxyIP` is the ip or domain you want to set. this means that the proxyIP is used to route traffic through a proxy rather than directly to a website that is using Cloudflare's (CDN). if you don't set this variable, connection to the Cloudflare IP will be cancelled (or blocked)...
-
-resons: Outbound TCP sockets to Cloudflare IP ranges are temporarily blocked, please refer to the [tcp-sockets documentation](https://developers.cloudflare.com/workers/runtime-apis/tcp-sockets/#considerations)
 
 ## Usage
 
 frist, open your pages.dev domain `https://edtunnel.pages.dev/` in your browser, then you can see the following page:
 The path `/uuid your seetting` to get the clash config and vless:// link.
-
-## Star History
-
-<a href="https://star-history.com/#3Kmfi6HP/EDtunnel&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=3Kmfi6HP/EDtunnel&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=3Kmfi6HP/EDtunnel&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=3Kmfi6HP/EDtunnel&type=Date" />
-  </picture>
-</a>
