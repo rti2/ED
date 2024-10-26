@@ -92,10 +92,11 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 if you deploy in Cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
 
 ## What improvements have been made ?
-Clean IPs for Iranian users: The clean IPs for Iranian users has been changed.
+Some clean IPs for Iranian users has been added.
 The early data (ed) value has been changed and is now set to 2560.
 The path has changed to EDge-Bridge
-Thai texts translation: Thai texts present in the code, including comments and variable names, have been translated to English using Google Translate. Please note that the accuracy of these translations may vary.
-Configuration name formatting enhancements: The formatting of configuration names has been updated.
+Thai texts present in the code, including comments and variable names, have been translated to English using Google Translate.
+(Please note that the accuracy of these translations may vary.)
+The formatting of configuration names has been updated.
 
 
