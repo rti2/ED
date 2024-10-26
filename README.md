@@ -91,10 +91,6 @@ https port: 443, 8443, 2053, 2096, 2087, 2083
 
 if you deploy in Cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
 
-
-## Reason for Creating a New Repository
-The decision to create a new repository, rather than forking from the original repository Kmfi6HP/EDtunnel, was due to the first source repository being unavailable. Since the GitHub account 'Kmfi6HP' is deleted, Cloudflare can't deploy from that repository. For Cloudflare access and deployment, it had to be a new repository; thus, it is the most viable option considering the situation.
-
 ## What improvements have been made ?
 Clean IPs for Iranian users: The clean IPs for Iranian users has been changed.
 The early data (ed) value has been changed and is now set to 2560.
