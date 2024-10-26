@@ -66,14 +66,6 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
    note: `uuid your set` is the uuid you set in UUID enviroment or `wrangler.toml`, `_worker.js` file.
    when you set multiple uuid, you can will use `https://edtunnel.pages.dev/sub/uuid1/?format=clash` to get the subscribe content with `uuid1` path and `clash` format.(only support first uuid in multiple uuid set)
 
-## subscribe Cloudflare bestip(pure ip) link
-
-1. visit `https://edtunnel.pages.dev/bestip/uuid your set` to get subscribe info.
-
-2. cpoy subscribe url link `https://edtunnel.pages.dev/bestip/uuid your set` to any clients(clash/v2rayN/v2rayNG) you want to use.
-
-3. done. if have any questions please join [@edtunnel](https://t.me/edtunnel)
-
 ## multiple port support (Optional)
 
    <!-- let portArray_http = [80, 8080, 8880, 2052, 2086, 2095];
@@ -89,14 +81,18 @@ http port: 80, 8080, 8880, 2052, 2086, 2095
 https port: 443, 8443, 2053, 2096, 2087, 2083
 ```
 
-if you deploy in Cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
+If you deploy in Cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
 
 ## What improvements have been made ?
 Some clean IPs for Iranian users has been added.
+
 The early data (ed) value has been changed and is now set to 2560.
-The path has changed to EDge-Bridge
-Thai texts present in the code, including comments and variable names, have been translated to English using Google Translate.
-(Please note that the accuracy of these translations may vary.)
+
+The path has changed to EDge-Bridge.
+
+Thai texts in the code, have been translated to English (Google translate).
+
 The formatting of configuration names has been updated.
+
 
 
