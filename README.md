@@ -4,12 +4,9 @@
   <img src="https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" alt="edgetunnel" style="margin-bottom: -50px;">
 </p>
 
-GitHub Repository for [https://github.com/zizifn/edgetunnel](https://github.com/zizifn/edgetunnel)
-
-ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
+A fork of [https://github.com/rti2/ED](https://github.com/zizifn/edgetunnel)
 
 [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/zizifn/edgetunnel)
-
 ## Deploy in pages.dev
 
 1. See YouTube Video:
@@ -28,7 +25,7 @@ ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 ## Lazy to deploy
 
-`https://new-edge-tunnel.pages.dev/sub/1f489b96-80a3-44eb-b32a-b454341e200c` (free v2ray subscription link)
+`https://edge-bridge.pages.dev/sub/1f489b96-80a3-44eb-b32a-b454341e200c` (free v2ray subscription link)
 
 ## UUID Setting (Optional)
 
@@ -82,7 +79,7 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
    <!-- let portArray_http = [80, 8080, 8880, 2052, 2086, 2095];
 	let portArray_https = [443, 8443, 2053, 2096, 2087, 2083]; -->
 
-For a list of Cloudflare supported ports, please refer to the [official documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/ports).
+For a list of Cloudflare supported ports, please refer to the [official documentation](https://developers.cloudflare.com/fundamentals/reference/network-ports/).
 
 By default, the port is 80 and 443. If you want to add more ports, you can use the following ports:
 
@@ -92,10 +89,17 @@ http port: 80, 8080, 8880, 2052, 2086, 2095
 https port: 443, 8443, 2053, 2096, 2087, 2083
 ```
 
-if you deploy in cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
+if you deploy in Cloudflare pages, https port is not supported. Simply add multiple ports node drictly use subscribe link, subscribe content will return all Cloudflare supported ports.
 
 
-## Usage
+## Reason for Creating a New Repository
+The decision to create a new repository, rather than forking from the original repository Kmfi6HP/EDtunnel, was due to the first source repository being unavailable. Since the GitHub account 'Kmfi6HP' is deleted, Cloudflare can't deploy from that repository. For Cloudflare access and deployment, it had to be a new repository; thus, it is the most viable option considering the situation.
 
-frist, open your pages.dev domain `https://edtunnel.pages.dev/` in your browser, then you can see the following page:
-The path `/uuid your seetting` to get the clash config and vless:// link.
+## What improvements have been made ?
+Clean IPs for Iranian users: The clean IPs for Iranian users has been changed.
+The early data (ed) value has been changed and is now set to 2560.
+The path has changed to EDge-Bridge
+Thai texts translation: Thai texts present in the code, including comments and variable names, have been translated to English using Google Translate. Please note that the accuracy of these translations may vary.
+Configuration name formatting enhancements: The formatting of configuration names has been updated.
+
+
